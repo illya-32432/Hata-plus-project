@@ -51,6 +51,10 @@ h1, h2, h3, h4, h5, h6{
     padding: 12px 0;
 }
 
+
+            /*ICONS*/
+
+
 .icons{
     padding: 10px 0 0 0;
 }
@@ -64,6 +68,54 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     align-items: center;
 }
+
+.icons li{
+    padding: 10px;
+}
+
+.icons a {
+    display: block;
+    background-image: url(../img/sprites.png);
+    transition: 0.5s;
+}
+
+.icons a {
+    transition: 0.5s;
+    display: block;
+    background-image: url(../img/sprite.png);
+}
+
+a.fb {
+    width: 10px;
+    height: 19px;
+}
+
+a.tw {
+    background-position: 6.3rem 0;
+    width: 18px;
+    height: 15px;
+}
+
+a.inst {
+    background-position: 12rem 0;
+    width: 19px;
+    height: 19px;
+}
+
+a.fb:hover {
+    background-position: 0 -2.25rem;
+}
+
+a.tw:hover {
+    background-position: 6.3rem -2.25rem;
+}
+
+a.inst:hover {
+    background-position: 12rem -2.25rem;
+}
+
+
+                /*ICONS*/
 
 .vertical-line {
     display: inline;
