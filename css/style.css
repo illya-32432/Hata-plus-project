@@ -377,6 +377,12 @@ hr{
     margin: 0;
 }
 
+.before::before{
+    content: url(../img/phone.png);
+    position: absolute;
+    margin: 0 0 0 -25px;
+}
+
 .maney sup{
     font-size: 14px;
 }
@@ -432,6 +438,7 @@ hr{
 .footer-menu li{
     padding: 0  0 9px 0;
 }
+
 
 .footer-menu ul{
     list-style: none;
