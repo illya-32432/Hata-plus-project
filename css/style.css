@@ -321,6 +321,10 @@ a.inst:hover {
     box-shadow: inset 0px -1px 0px #cecedd;
 }
 
+#cat3 {
+    border-bottom: 1px solid #cecedd;
+}
+
 .main-li:last-child {
     box-shadow: none;
     border-radius: 0 0 3px 3px;
