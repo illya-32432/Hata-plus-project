@@ -1,11 +1,7 @@
-body{  
+body{
     margin: 0;
     font-family: "Arial";
-    cursor: url(../img/cursor-cus.cur), auto;
-}
-
-h1, h2, h3, h4, h5, h6{
-    margin: 0;
+    cursor: url(../img/cursor-cus.cur) auto;
 }
 
 /* HEADER */
@@ -218,168 +214,86 @@ a.inst:hover {
     cursor: url(../img/cursor-poin.cur), auto;
 }
 
-.propoz-month{
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "RobotoSlab";
-    text-align: center;
-    margin: 0;
-}
+/*Main*/
 
-.propoz-low-price{
-    font-size: 14px;
-    color: #ffffff;
-    text-align: center;
-}
-
-.maney{
-    font-size: 40px;
-    color: #fd8300;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-}
-
-.maney small{
-    font-size: 24px;
-}
-
-.image-text{
-    padding: 60px;
-    background-image: url(../img/house.png);
-    background-size: cover;
-}
-
-.wrapper-second{
+.main{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-
-    display: flex;
-    justify-content: space-between;
-    padding: 35px 0 0 0;
 }
 
-.nav-title{
-    font-size: 30px;
+section h1{
+    font-size: 24px;
     color: #24242b;
     font-weight: 700;
-    padding: 0;
-    margin: 0;
-    font-family: "RobotoSlab";
-    margin: 0 0 30px;
+    font-family: "Roboto Slab";
 }
 
-.main-text{
-    width: 670px;
+section h2{
     font-size: 14px;
-    color: #666666;
-    line-height: 24px;
-    margin: 0 0 25px;
+    color: #666;
+    font-family: "Arial";
+    padding: 0 0 15px 0;
 }
 
+.table_list thead tr{
+    color: #fff;
+    background-color: #1f1f56;
+}
 
-.nav-text a{
+.table_list th{
+    padding: 0 45px;
+    border-radius: 3px;
+}
+
+.table_list tbody tr{
+    color: #666;
+    background-color: #e4e4ec;
+}
+
+.table_list tbody tr:hover{
+    color: #fff;
+    background-color: #fd8300;
+}
+
+.table_list td{
+    padding: 5px 0;
+    border-radius: 3px;
+}
+
+.section-second h3{
+    font-size: 13px;
+    color: #666;
+    font-family: "Arial";
+}
+
+.section-second h4 a{
     font-size: 14px;
-    text-decoration: underline;
+    text-decoration: none;
     color: #fd8300;
     font-weight: bold;
-    cursor: url(../img/cursor-poin.cur), auto;
+    font-family: "Arial";
 }
 
-.nav-text{
-    max-width: 712px;
+.section-second h4 a:hover{
+    text-decoration: underline;
 }
 
-.nav-text a:hover{
-    color: #666;
-    text-decoration: none;
+.section-second hr{
+    border: 1px solid #e4e4ec;
+    margin: 35px 0;
 }
 
 
-/*list*/
 
-.list-menu p {
-    margin: 0;
-    padding: 11px 15px;
-    width: 190px;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: "RobotoSlab";
-    line-height: 24px;
-    background-color: #1f1f56;
-    border-radius: 3px 3px 0 0;
-}
 
-.list-menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
 
-.main-li {
-    padding: 0 15px;
-    background-color: #e4e4ec;
-    box-shadow: inset 0px -1px 0px #cecedd;
-}
 
-#cat3 {
-    border-bottom: 1px solid #cecedd;
-}
 
-.main-li:last-child {
-    box-shadow: none;
-    border-radius: 0 0 3px 3px;
-}
 
-.main-li:hover {
-    background-color: #fd8300;
-    cursor: url(../img/cursor-poin.cur), auto;
-}
 
-article{
-    margin: 22px 0 15px;
-    border-bottom: 1px solid #e4e4ec;
-}
 
-.main-li:hover .sub-menu {
-    display: block;
-}
 
-.main-li:hover .main-headerline {
-    color: #fff;
-    cursor: url(../img/cursor-poin.cur), auto;
-}
-
-.main-headerline {
-    display: block;
-    position: relative;
-    padding: 11px 0;
-    color: #25252c;
-    font-size: 14px;
-    text-decoration: none;
-    line-height: 24px;
-    transition: .5s ease all;
-}
-
-.main-headerline::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 40%;
-    right: 0;
-    width: 7px;
-    height: 7px;
-    box-sizing: border-box;
-    border: 3px solid #666;
-    border-left: none;
-    border-top: none;
-    transform: rotate(-45deg);
-    transition: 1s ease all;
-}
 
 .main-li:hover .main-headerline::before {
     border: 3px solid #fff;
@@ -588,9 +502,4 @@ hr{
     text-align: center;
     margin: 0;
     padding: 15px 0;
-}
-
-@font-face {
-    font-family: "RobotoSlab";
-    src: url(../fonts/RobotoSlab-Bold.ttf);
 }
