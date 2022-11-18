@@ -39,6 +39,10 @@ header{
     cursor: url(../img/cursor-poin.cur), auto;
 }
 
+#orange{
+    color: #fd8300;
+}
+
 .header_ul li a:hover{
     color: #fd8300;
 }

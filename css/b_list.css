@@ -35,6 +35,10 @@ header{
     cursor: url(../img/cursor-poin.cur), auto;
 }
 
+#orange{
+    color: #fd8300;
+}
+
 .header_ul li a:hover{
     color: #fd8300;
 }
@@ -122,6 +126,8 @@ a.inst:hover {
     height: 51px;
     border-left: 1px solid #e4e4ec;
 }
+                
+
 
 .wrapper-first{
     max-width: 960px;
@@ -222,19 +228,33 @@ a.inst:hover {
     margin: 0 auto;
 }
 
+section{
+    padding: 0 0 18px 0;
+}
+
 section h1{
     font-size: 24px;
     color: #24242b;
     font-weight: 700;
-    font-family: "Roboto Slab";
+    font-family: "RobotoSlab";
 }
 
-section h2{
+section p{
     font-size: 14px;
     color: #666;
     font-family: "Arial";
-    padding: 0 0 15px 0;
+    padding: 0 0 10px 0;
+    margin: 0;
 }
+
+table{
+    max-width: 960px;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
 
 .table_list thead tr{
     color: #fff;
@@ -242,13 +262,28 @@ section h2{
 }
 
 .table_list th{
-    padding: 0 45px;
-    border-radius: 3px;
+    padding: 13px 0 13px 20px;  
 }
 
-.table_list tbody tr{
+#cat1{
+    text-align: right;
+    padding: 0 20px 0 0;
+}
+
+#cat2{
+    text-align: left;
+}
+
+#xxx{
+    text-align: right;
+    padding: 0 20px 0 0;
+}
+
+tbody tr{
     color: #666;
     background-color: #e4e4ec;
+    border-radius: 3px;
+    border-top: 1px solid #c2c2d1;
 }
 
 .table_list tbody tr:hover{
@@ -257,17 +292,25 @@ section h2{
 }
 
 .table_list td{
-    padding: 5px 0;
-    border-radius: 3px;
+    padding: 10px 0 10px 20px;
 }
 
-.section-second h3{
+.section-second p{
     font-size: 13px;
     color: #666;
     font-family: "Arial";
 }
 
-.section-second h4 a{
+#padding{
+    padding: 28px 0 0 0;
+    margin: 0;
+}
+
+.pad{
+    padding: 20px 0 0 0;
+}
+
+.section-second a{
     font-size: 14px;
     text-decoration: none;
     color: #fd8300;
@@ -275,7 +318,7 @@ section h2{
     font-family: "Arial";
 }
 
-.section-second h4 a:hover{
+.section-second a:hover{
     text-decoration: underline;
 }
 
@@ -502,4 +545,9 @@ hr{
     text-align: center;
     margin: 0;
     padding: 15px 0;
+}
+
+@font-face {
+    font-family: "RobotoSlab";
+    src: url(../fonts/RobotoSlab-Bold.ttf);
 }
