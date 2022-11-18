@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: "Arial";
-    cursor: url(../img/cursor-cus.cur) auto;
+    cursor: url(../img/cursor-cus.cur), auto;
 }
 
 /* HEADER */
