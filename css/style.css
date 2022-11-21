@@ -62,6 +62,7 @@ header{
 
             /*ICONS*/
 
+
 .icons img{
     margin: 0 0 0 22px;
 }
@@ -247,7 +248,7 @@ a.inst:hover {
 
 .image-text{
     padding: 60px;
-    background-image: url(../img/house.png);
+    background-image: url(../img/house.jpg);
     background-size: cover;
 }
 
