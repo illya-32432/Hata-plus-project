@@ -250,6 +250,7 @@ a.inst:hover {
     padding: 60px;
     background-image: url(../img/house.jpg);
     background-size: cover;
+    background-color: #000;
 }
 
 .wrapper-second{
