@@ -424,7 +424,10 @@ hr{
     font-family: "RobotoSlab";
 }
 
-
+.list-menu {
+    position: sticky;
+    top: 65px;
+}
 
 .projects{
     width: 100%;
