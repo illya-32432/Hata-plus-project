@@ -367,18 +367,16 @@ article{
 
 .main-headerline::before {
     content: '';
-    display: block;
     position: absolute;
-    top: 40%;
-    right: 0;
+    right: 15px;
+    top: 18px;
     width: 7px;
     height: 7px;
-    box-sizing: border-box;
-    border: 3px solid #666;
-    border-left: none;
-    border-top: none;
+    border-right: 2px solid #666;
+    border-bottom: 2px solid #666;
     transform: rotate(-45deg);
-    transition: 1s ease all;
+    transition: all .5s ease;
+    margin: 0 -10px 0 0;
 }
 
 .main-li:hover .main-headerline::before {
@@ -434,8 +432,14 @@ hr{
     justify-content: space-between;
 }
 
-.figure{
+.projects a:hover ~ h4{
+    text-decoration: underline;
+}
+
+.figure {
+    padding: 0 28px 0 0;
     margin: 0;
+    position: relative;
 }
 
 .before::before{
@@ -464,6 +468,14 @@ hr{
     font-size: 13px;
     color: #9999a6;
     margin: 0;
+}
+
+.projects a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .wrapper-third{
