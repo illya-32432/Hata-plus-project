@@ -78,44 +78,44 @@ header{
 }
 
 .icons a {
-    display: block;
-    background-image: url(../img/sprites.png);
-    transition: 0.5s;
-}
-
-.icons a {
-    transition: 0.5s;
-    display: block;
     background-image: url(../img/sprite.png);
+    display: block;
 }
 
 a.fb {
     width: 10px;
     height: 19px;
+    background-position: -57px -21px;
 }
 
 a.tw {
-    background-position: 6.3rem 0;
     width: 18px;
     height: 15px;
+    background-position: -69px -21px;
 }
 
 a.inst {
-    background-position: 12rem 0;
     width: 19px;
     height: 19px;
+    background-position: -89px -21px;
 }
 
 a.fb:hover {
-    background-position: 0 -2.25rem;
+    width: 10px;
+    height: 19px;
+    background-position: -57px 0;
 }
 
 a.tw:hover {
-    background-position: 6.3rem -2.25rem;
+    width: 18px;
+    height: 15px;
+    background-position: -69px 0;
 }
 
 a.inst:hover {
-    background-position: 12rem -2.25rem;
+    width: 19px;
+    height: 19px;
+    background-position: -89px 0;
 }
 
 
@@ -138,14 +138,10 @@ a.inst:hover {
     background-color: #fff;
 }
 
-.image-iconss img{
-    display: block;
-    margin: 8px 0;
-    padding: 7px 0 0 0;
-}
 
-.image-iconss{
-    padding: 0 10px 0 0;
+.contacts{
+    position: relative;
+    padding-left: 28px;
 }
 
 .contacts a{
@@ -166,6 +162,44 @@ a.inst:hover {
 .contacts a:hover{
     color: #fd8300;
     text-decoration: underline;
+}
+
+.gmail a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-image: url(../img/sprite.png);
+}
+
+
+
+.convert::before{
+    width: 17px;
+    height: 13px;
+    background-position: -18px 0;
+}
+
+.skype::before{
+    width: 18px;
+    height: 19px;
+    background-position: -37px 0;
+}
+
+.convert:hover::before{
+    width: 17px;
+    height: 13px;
+    background-position: -18px -21px;
+}
+
+.skype:hover::before{
+    width: 18px;
+    height: 19px;
+    background-position: -37px -21px;
+}
+
+.gmail{
+    position: relative;
+    padding-left: 30px;
 }
 
 .gmail a{
@@ -209,9 +243,17 @@ a.inst:hover {
 }
 
 .phone::before {
-    content: url(../img/phone.png);
+    content: "";
     position: absolute;
-    margin: 0 0 0 -25px;
+    background-position: 0 0;
+    left: 0;
+    width: 16px;
+    height: 17px;
+    background-image: url(../img/sprite.png);
+}
+
+.phone:hover::before{
+    background-position: 0 -21px;
 }
 
 .icons li a{
