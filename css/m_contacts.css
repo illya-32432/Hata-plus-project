@@ -58,12 +58,8 @@ header{
 
 
 
-            /*ICONS*/
+    /*ICONS*/
 
-
-.icons{
-    padding: 10px 0 0 0;
-}
 
 .icons img{
     margin: 0 0 0 22px;
@@ -80,44 +76,44 @@ header{
 }
 
 .icons a {
-    display: block;
-    background-image: url(../img/sprites.png);
-    transition: 0.5s;
-}
-
-.icons a {
-    transition: 0.5s;
-    display: block;
     background-image: url(../img/sprite.png);
+    display: block;
 }
 
 a.fb {
     width: 10px;
     height: 19px;
+    background-position: -57px -21px;
 }
 
 a.tw {
-    background-position: 6.3rem 0;
     width: 18px;
     height: 15px;
+    background-position: -69px -21px;
 }
 
 a.inst {
-    background-position: 12rem 0;
     width: 19px;
     height: 19px;
+    background-position: -89px -21px;
 }
 
 a.fb:hover {
-    background-position: 0 -2.25rem;
+    width: 10px;
+    height: 19px;
+    background-position: -57px 0;
 }
 
 a.tw:hover {
-    background-position: 6.3rem -2.25rem;
+    width: 18px;
+    height: 15px;
+    background-position: -69px 0;
 }
 
 a.inst:hover {
-    background-position: 12rem -2.25rem;
+    width: 19px;
+    height: 19px;
+    background-position: -89px 0;
 }
 
 
@@ -128,8 +124,97 @@ a.inst:hover {
     height: 51px;
     border-left: 1px solid #e4e4ec;
 }
-                
 
+.wrapper-first{
+    max-width: 960px;
+
+    margin: 0 auto;
+    padding: 75px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+.contacts{
+    position: relative;
+    padding-left: 28px;
+}
+
+.contacts a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #25252c;
+    font-weight: bold;
+    display: block;
+    margin: 8px 0;
+    cursor: url(../img/cursor-poin.cur), auto;
+}
+
+.contacts ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contacts a:hover{
+    color: #fd8300;
+    text-decoration: underline;
+}
+
+.gmail a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-image: url(../img/sprite.png);
+}
+
+
+
+.convert::before{
+    width: 17px;
+    height: 13px;
+    background-position: -18px 0;
+}
+
+.skype::before{
+    width: 18px;
+    height: 19px;
+    background-position: -37px 0;
+}
+
+.convert:hover::before{
+    width: 17px;
+    height: 13px;
+    background-position: -18px -21px;
+}
+
+.skype:hover::before{
+    width: 18px;
+    height: 19px;
+    background-position: -37px -21px;
+}
+
+.gmail{
+    position: relative;
+    padding-left: 30px;
+}
+
+                /*ICONS*/
+
+.vertical-line {
+    display: inline;
+    height: 51px;
+    border-left: 1px solid #e4e4ec;
+}
+                
+h2{
+    font-size: 14px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
 
 .wrapper-first{
     max-width: 960px;
@@ -138,6 +223,14 @@ a.inst:hover {
     padding: 20px 0 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.wrapper-second{
+    max-width: 960px;
+
+    margin: 0 auto;
     align-items: center;
     background-color: #fff;
 }
@@ -192,6 +285,63 @@ a.inst:hover {
 
 .gmail-image{
     display: flex;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.y{
+    margin-bottom: 0;
+}
+
+.x{
+    margin: 0;
+}
+
+.v{
+    margin-top: 0;
+}
+
+.g{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #25252c;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.num-ber{
+    margin: 0;
+    padding: 5px 0;
+}
+
+#nnn{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.grey{
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    font-family: "Arial";
+}
+
+h1{
+    font-size: 24px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    margin-top: 60px;
 }
 
 .button-call a{
