@@ -367,6 +367,7 @@ h2{
     padding: 10px 8px;
     margin-bottom: 10px;
     border: 1px solid #c4c4d3;
+    border-radius: 3px;
 }
 
 .bottoon{
@@ -416,12 +417,14 @@ h2{
 
 textarea{
     border: 1px solid #c4c4d3;
+    border-radius: 3px;
 }
 
 .width-input{
     width: 208px;
     padding: 10px 8px;
     border: 1px solid #c4c4d3;
+    border-radius: 3px;
 }
 
 hr{
