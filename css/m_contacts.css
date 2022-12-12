@@ -528,8 +528,8 @@ h1{
 }
 
 .check+label::before {
-    left: 0;
-    top: 3px;
+    left: -1px;
+    top: 1px;
     width: 15px;
     height: 15px;
     border-radius: 3px;
