@@ -56,7 +56,7 @@ header{
 
     display: flex;
 }
-
+c4c4d3
 .header_ul{
     padding: 12px 0;
 }
@@ -366,6 +366,7 @@ h2{
     width: 446px;
     padding: 10px 8px;
     margin-bottom: 10px;
+    border: 1px solid #c4c4d3;
 }
 
 .bottoon{
@@ -413,9 +414,14 @@ h2{
     font-family: "Arial";
 }
 
+textarea{
+    border: 1px solid #c4c4d3;
+}
+
 .width-input{
     width: 208px;
     padding: 10px 8px;
+    border: 1px solid #c4c4d3;
 }
 
 hr{
