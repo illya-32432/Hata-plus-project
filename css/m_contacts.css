@@ -4,6 +4,11 @@ body{
     cursor: url(../img/cursor-cus.cur), auto;
 }
 
+@font-face {
+    font-family: "RobotoSlab";
+    src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+
 /* HEADER */
 
 header{
@@ -595,9 +600,4 @@ h1{
     padding: 35px 0;
     display: flex;
     justify-content: space-between;
-}
-
-@font-face {
-    font-family: "RobotoSlab";
-    src: url(../fonts/RobotoSlab-Bold.ttf);
 }
