@@ -534,7 +534,6 @@ h1{
     height: 15px;
     border-radius: 3px;
     border: 1px solid #c5c5d4;
-    box-sizing: border-box;
 }
 
 .check:checked+label:after {
@@ -545,6 +544,7 @@ h1{
     border-left: 2px solid #1f1f56;
     border-bottom: 2px solid #1f1f56;
     transform: rotate(-45deg);
+    box-sizing: border-box;
 }
 
 .tick p {
