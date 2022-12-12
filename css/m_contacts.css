@@ -524,7 +524,7 @@ h1{
 
 .check+label {
     position: relative;
-    padding: 5px 0 5px 24px;
+    padding: 3px 0 0px 24px;
 }
 
 .check+label::before {
@@ -534,6 +534,7 @@ h1{
     height: 15px;
     border-radius: 3px;
     border: 1px solid #c5c5d4;
+    box-sizing: border-box;
 }
 
 .check:checked+label:after {
